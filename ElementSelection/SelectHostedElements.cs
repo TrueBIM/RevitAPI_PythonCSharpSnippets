@@ -1,4 +1,4 @@
-IList<Element> SelectElementByIdNumber(Document doc)
+IList<Element> SelectHostedElements(Document doc)
 {
   FilteredElementCollector collector = new Autodesk.Revit.DB.FilteredElementCollector(doc);
   collector.OfClass(typeof(Autodesk.Revit.DB.FamilyInstance));
